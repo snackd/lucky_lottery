@@ -4,8 +4,6 @@
 
 [簡易抽獎程式記錄](https://hackmd.io/@zz8yeJXcQYOjqL6CsPNdlg/HyA91S3wo)
 
-[TOC]
-
 ## 環境部署
 
 位於 cmd (Terminal) 下指令
@@ -51,7 +49,6 @@ if __name__ == '__main__':
 ```
 
 > 執行結果：
-
 ![](https://i.imgur.com/tD4tdLR.png)
 
 ## 多次抽獎
@@ -165,7 +162,7 @@ if __name__ == '__main__':
     result = write_file(person_num=PARTICIPATE_NUM)
     print("執行成功與否", result)
 ```
-
+> 執行結果：
 ![](https://i.imgur.com/p4KkpEs.png)
 ![](https://i.imgur.com/oRZa5GM.png)
 
@@ -303,4 +300,5 @@ if __name__ == '__main__':
             print("END")
 ```
 > 執行結果：
+
 ![](https://i.imgur.com/ifqWdjV.png)
