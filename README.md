@@ -1,8 +1,10 @@
 # lucky_lottery
 
-###### tags: `Program`
+###### tags: `portfolio`
 
-[簡易抽獎程式記錄](https://hackmd.io/@zz8yeJXcQYOjqL6CsPNdlg/HyA91S3wo)
+[簡易抽獎程式 HackMD](https://hackmd.io/@zz8yeJXcQYOjqL6CsPNdlg/HyA91S3wo)
+
+[TOC]
 
 ## 環境部署
 
@@ -43,7 +45,7 @@ def single_draw():
     else:
         print("Nope")
         return False
-
+    
 if __name__ == '__main__':
     single_draw()
 ```
@@ -78,7 +80,7 @@ def multiple_draw(draw_count):
 
     print("Succeeded Count", success_count)
     print("Failed Count", fail_count)
-
+    
 if __name__ == '__main__':
     multiple_draw(draw_count=DRAW_COUNT)
 ```
@@ -157,10 +159,10 @@ def write_file(person_num):
     finally:
         print("---GENERATE_PEOPLE_DATA_END---")
         return result
-
+    
 if __name__ == '__main__':
     result = write_file(person_num=PARTICIPATE_NUM)
-    print("執行成功與否", result)
+    print("執行成功與否", result)    
 ```
 > 執行結果：
 ![](https://i.imgur.com/p4KkpEs.png)
